@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/profile/profile",
+			"style":{
+				"navigationBarTitleText":"个人中心",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/collect/collect",
+			"style":{
+				"navigationBarTitleText":"收藏",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/cart/cart",
+			"style":{
+				"navigationBarTitleText":"购物车",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/category/category",
+			"style":{
+				"navigationBarTitleText":"分类",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path":"pages/pay/pay",
+			"style":{
+				"navigationBarTitleText":"待付款",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/detail/detail",
+			"style":{
+				"navigationBarTitleText":"详细",
+				"navigationStyle":"custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor": "#FF5777",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list":[
+		{
+			"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/icon/home.png",
+			"selectedIconPath":"static/icon/_home.png"
+		},
+		{
+			"pagePath":"pages/category/category",
+			"text":"分类",
+			"iconPath":"static/icon/category.png",
+			"selectedIconPath":"static/icon/_category.png"
+		},
+		{
+			"pagePath":"pages/cart/cart",
+			"text":"购物车",
+			"iconPath":"static/icon/cart.png",
+			"selectedIconPath":"static/icon/_cart.png"
+		},
+		{
+			"pagePath":"pages/profile/profile",
+			"text":"首页",
+			"iconPath":"static/icon/profile.png",
+			"selectedIconPath":"static/icon/_profile.png"
+		}
+		]
+	}
+}
